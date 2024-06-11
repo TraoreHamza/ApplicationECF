@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="css/ticket.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="manifest" href="manifest.json" />
+
     <script src="js/titre.js" defer></script>
     <script src="js/form.js" defer></script>
 </head>
 
 <body>
     <header>
-       <!--------- navBar --------->
+        <!--------- navBar --------->
         <nav class="nav-content">
             <ul>
                 <li class="spacer"></li>
@@ -27,16 +29,16 @@
             </ul>
         </nav>
     </header>
-       <div class="connecte">
+    <div class="connecte">
         <img src="img/dinosore.png" alt="" class="dinosore">
         <h4>Imposible de se connecter àn internet.</h1>
-        <p>Cette page Web ne peut pas s'afficher dans Google Chromo, car votre ordinateur<br>
-             n'est pas connecter à internet</p>
+            <p>Cette page Web ne peut pas s'afficher dans Google Chromo, car votre ordinateur<br>
+                n'est pas connecter à internet</p>
 
-        <details>
-            <summary>Details</summary>
-        </details> 
-    </div> 
+            <details>
+                <summary>Details</summary>
+            </details>
+    </div>
     <!--------- page2 ------->
     <div class="title-content">
         <h1>Aucun titre à utiliser</h1>
@@ -63,9 +65,9 @@
                 <p class="p40">Vous utiliser</p>
                 <div class="checkbox">
                     <label for="check">Le bus</label>
-                    <input type="checkbox" id="check"  name="check">
+                    <input type="checkbox" id="check" name="check">
                 </div>
-                <button  class="btn-content">Utiliser</button>
+                <button class="btn-content">Utiliser</button>
             </div>
 
         </article>
@@ -88,50 +90,50 @@
                 </span>
             </div>
         </div>
-    <div class="flex">
-        <div class="div-content">
-            <img src="img/Capture d’écran du 2024-06-03 00-03-42.png" alt="">
-            <div>1 VOYAGE AIX EN BUS
-                <div class="paragraph">valable 60 minutes</div>
-             </div>
-        </div>
-        <div class="select">
-            <div class="icon">
-                <span class="material-symbols-outlined" id="moins">
-                    do_not_disturb_on
+        <div class="flex">
+            <div class="div-content">
+                <img src="img/Capture d’écran du 2024-06-03 00-03-42.png" alt="">
+                <div>1 VOYAGE AIX EN BUS
+                    <div class="paragraph">valable 60 minutes</div>
+                </div>
+            </div>
+            <div class="select">
+                <div class="icon">
+                    <span class="material-symbols-outlined" id="moins">
+                        do_not_disturb_on
                     </span>
                     <div class="compteur">0</div>
                     <span class="material-symbols-outlined" id="plus" id="material-symbols-outlined">
                         add_circle
-                        </span>
+                    </span>
+                </div>
+                <div class="paye">1,20 €</div>
             </div>
-            <div class="paye">1,20 €</div>
         </div>
-    </div>
-    <div class="flex">
-        <div class="div-content">
-            <img src="img/Capture d’écran du 2024-06-03 00-03-42.png" alt="">
-            <div>10 VOYAGE AIX EN BUS
-                <div class="paragraph">valable 60 minutes sur aix en Bus <br>Mutli-validable</div>
-             </div>
-        </div>
-        <div class="select">
-            <div class="icon">
-                <span class="material-symbols-outlined" class="moins">
-                    do_not_disturb_on
+        <div class="flex">
+            <div class="div-content">
+                <img src="img/Capture d’écran du 2024-06-03 00-03-42.png" alt="">
+                <div>10 VOYAGE AIX EN BUS
+                    <div class="paragraph">valable 60 minutes sur aix en Bus <br>Mutli-validable</div>
+                </div>
+            </div>
+            <div class="select">
+                <div class="icon">
+                    <span class="material-symbols-outlined" class="moins">
+                        do_not_disturb_on
                     </span>
                     <div class="compteur">0</div>
-                    <span class="material-symbols-outlined"  class="plus" id="material-symbols-outlined">
+                    <span class="material-symbols-outlined" class="plus" id="material-symbols-outlined">
                         add_circle
-                        </span>
+                    </span>
+                </div>
+                <div class="paye">9,00 €</div>
             </div>
-            <div class="paye">9,00 €</div>
         </div>
-    </div>
-    <article class="content-article">
-        <div class="strong">Total: <strong id="strong"></strong></div>
-        <h2 id="paragraph"></h2>
-    </article>
+        <article class="content-article">
+            <div class="strong">Total: <strong id="strong"></strong></div>
+            <h2 id="paragraph"></h2>
+        </article>
     </section>
     <!-------paiement------->
     <section class="commande">
@@ -141,27 +143,28 @@
             <p>Votre voyage</p>
             <p class="spacer"></p>
         </div>
-         <h2 class="text1">Totale de la commande: <span class="commandeTicket2"></span></h2>
-         <h2 class="text">1 VOYAGE AIX EN BUS <span class="commandeTicket3"></span></h2>
-         <form action="">
-         <label for=""><input type="checkbox" id="condition" name="condition">J'ai lu et j'accepte les <a href="">conditions générales de vente</a></label>
-         <h2 class="submit">Payer</h2>
+        <h2 class="text1">Totale de la commande: <span class="commandeTicket2"></span></h2>
+        <h2 class="text">1 VOYAGE AIX EN BUS <span class="commandeTicket3"></span></h2>
+        <form action="">
+            <label for=""><input type="checkbox" id="condition" name="condition">J'ai lu et j'accepte les <a
+                    href="">conditions générales de vente</a></label>
+            <h2 class="submit">Payer</h2>
         </form>
     </section>
-     <section class="payTraduction">
+    <section class="payTraduction">
         <div class="skil">
             <img src="img/back.png" alt="" id="back1">
             <p>Paiement</p>
             <p class="spacer"></p>
         </div>
-    <div class="language">
-        <img src="img/photo.png" alt="">
-          <select name="" id="langue">
-            <option value="">FR</option>
-            <option value="">EN</option>
-            <option value="">ES</option>
-          </select>
-     </div>
+        <div class="language">
+            <img src="img/photo.png" alt="">
+            <select name="" id="langue">
+                <option value="">FR</option>
+                <option value="">EN</option>
+                <option value="">ES</option>
+            </select>
+        </div>
         <div class="symbole">
             <select name="" id="cardP">
                 <option value="" class="cardP"></option>
@@ -169,61 +172,62 @@
         </div>
     </section>
     <!------ Formulaire -------->
-        <main>
+    <main>
         <form action="#" class="formContent">
             <div id="numberCard"></div>
             <div id="experyDate"></div>
             <div id="crypto"></div>
-        <div class="card">
-            <label for="">Numéro de carte</label>
-        <div class="cardType">
-            <input type="text" id="CardNum" maxlength="19"><span class="material-symbols-outlined" id="creditCard">
-                credit_card
-                </span>
-            <span class="material-symbols-outlined">
-                help
-                </span>
-        </div>
-        </div>
-                <div>
-                    <label for="">Expire fin<br></label>
-                    <select name="" id="select">
-                        <option value="">Mois</option>
-                        <option value="J">Janvier</option>
-                        <option value="F">Fevrier</option>
-                        <option value="M">Mars</option>
-                        <option value="A">Avril</option>
-                        <option value="M">Mais</option>
-                        <option value="J">Juin</option>
-                        <option value="J">Juillet</option>
-                        <option value="A">Août</option>
-                        <option value="S">Septembre</option>
-                        <option value="O">Octobre</option>
-                        <option value="N">Novembre</option>
-                        <option value="D">Decembre</option>
-                    </select>
-                    <select name="" id="select1">
-                        <option value="">année</option>
-                        <option value="">2026</option>
-                        <option value="">2027</option>
-                        <option value="">2028</option>
-                        <option value="">2029</option>
-                        <option value="">2030</option>
-                    </select>
-                </div>
-                <div class="cvv">
-                    <label for="">Cryptograme visuel<br><input type="text" id="cvv" maxlength="3"></label>
+            <div class="card">
+                <label for="">Numéro de carte</label>
+                <div class="cardType">
+                    <input type="text" id="CardNum" maxlength="19"><span class="material-symbols-outlined"
+                        id="creditCard">
+                        credit_card
+                    </span>
                     <span class="material-symbols-outlined">
                         help
-                        </span>
+                    </span>
                 </div>
-                <button type="submit" id="valide">VALIDER</button>
+            </div>
+            <div>
+                <label for="">Expire fin<br></label>
+                <select name="" id="select">
+                    <option value="">Mois</option>
+                    <option value="J">Janvier</option>
+                    <option value="F">Fevrier</option>
+                    <option value="M">Mars</option>
+                    <option value="A">Avril</option>
+                    <option value="M">Mais</option>
+                    <option value="J">Juin</option>
+                    <option value="J">Juillet</option>
+                    <option value="A">Août</option>
+                    <option value="S">Septembre</option>
+                    <option value="O">Octobre</option>
+                    <option value="N">Novembre</option>
+                    <option value="D">Decembre</option>
+                </select>
+                <select name="" id="select1">
+                    <option value="">année</option>
+                    <option value="">2026</option>
+                    <option value="">2027</option>
+                    <option value="">2028</option>
+                    <option value="">2029</option>
+                    <option value="">2030</option>
+                </select>
+            </div>
+            <div class="cvv">
+                <label for="">Cryptograme visuel<br><input type="text" id="cvv" maxlength="3"></label>
+                <span class="material-symbols-outlined">
+                    help
+                </span>
+            </div>
+            <button type="submit" id="valide">VALIDER</button>
         </form>
-    <div class="photo">
-        <img src="img/visa.png" alt="">
-        <img src="img/securité.png" alt="">
-        <img src="img/mastercard.png" alt="">
-    </div>
+        <div class="photo">
+            <img src="img/visa.png" alt="">
+            <img src="img/securité.png" alt="">
+            <img src="img/mastercard.png" alt="">
+        </div>
         <article id="paiement">
             <a href="#" id="card">Annuler et retourner à la boutique</a>
             <hr>
@@ -243,22 +247,22 @@
             <p class="spacer"></p>
         </div>
         <img src="img/validation.png" alt="" class="screen">
-         <strong>Paiement accepté</strong>
-         <p>Retrouvez-vos titres dans votre compte et utilisez-les
+        <strong>Paiement accepté</strong>
+        <p>Retrouvez-vos titres dans votre compte et utilisez-les
             pour voyager facilement</p>
-         <h2 class="closeBtn">Fermer</h2>
+        <h2 class="closeBtn">Fermer</h2>
     </div>
     <!-------- Carte de ticket en cours------>
     <section class="controle">
         <div class="skil">
-                <img src="img/back.png" alt="" id="back3">
-                <p>E-Tickets</p>
-                <p>Votre voyage</p>
-                <p class="spacer"></p>
-            </div>
+            <img src="img/back.png" alt="" id="back3">
+            <p>E-Tickets</p>
+            <p>Votre voyage</p>
+            <p class="spacer"></p>
+        </div>
         <article class="ticket">
             <h2>En cours d'utilisation <span class="material-symbols-outlined">
-                hourglass_top
+                    hourglass_top
                 </span></h2>
             <img src="img/ticket.png" alt="" id="imgTicket">
             <div class="time">
@@ -269,21 +273,21 @@
         <article class="metro">
             <div id="voyage">
                 <p>Mes validation</p>
-                <h4 >Aujordhui - Dimanche 2 juin</h4>
+                <h4>Aujordhui - Dimanche 2 juin</h4>
             </div>
             <div id="metro">
-            <div>
-                <p>1 validation</p>
-                <p>1 VOYAGE AIX EN BUS</p>
-            </div>
+                <div>
+                    <p>1 validation</p>
+                    <p>1 VOYAGE AIX EN BUS</p>
+                </div>
                 <p>20:58</p>
             </div>
-        <div class="help">
-            <span class="material-symbols-outlined" id="help">
-                help
+            <div class="help">
+                <span class="material-symbols-outlined" id="help">
+                    help
                 </span>
-            <h5>Conrespondance, accès au Métro, Contrôle</h5>
-        </div>
+                <h5>Conrespondance, accès au Métro, Contrôle</h5>
+            </div>
             <button class="btnContent">Métro ou Controle</button>
             <button class="btn-content">Prendre une conrrespondance</button>
         </article>
@@ -291,68 +295,79 @@
     <!----- Details-------->
     <section id="correspondance">
         <div class="correspondance">
-        <div>
-            <span class="material-symbols-outlined" id="croix">
-                close
-            </span>
-        </div>
+            <div>
+                <span class="material-symbols-outlined" id="croix">
+                    close
+                </span>
+            </div>
             <p>correspondance, Métro, Contrôle</p>
         </div>
         <div id="info">
-        <div class="info">
-            <div class="rond"><h4>1</h4></div>
-            <p>Pour prendre une correspondance :
-                sélectionnez votre titre en cours de validité et cliquez sur le bouton « Prendre une correspondance »
-                Pour les titres RTM, indiquez si vous voyagez dans le Métro ou dans un autre mode de transport (bus, tramway, ...)
-                Cliquez sur le bouton « Utiliser » pour confirmer votre correspondance
-                Si vous voyagez dans un bus ou un tramway, scannez le QR Code affiché à côté de chaque porte pour valider votre correspondance
-                Si vous voyagez dans le métro, cliquez sur le bouton « Métro ou Contrôle » et présentez votre QR Code au lecteur optique leticket présent sur le portillon
-                Le temps de validité de votre titre vous est indiqué sur l'écran "Votre voyage"</p>
+            <div class="info">
+                <div class="rond">
+                    <h4>1</h4>
+                </div>
+                <p>Pour prendre une correspondance :
+                    sélectionnez votre titre en cours de validité et cliquez sur le bouton « Prendre une correspondance
+                    »
+                    Pour les titres RTM, indiquez si vous voyagez dans le Métro ou dans un autre mode de transport (bus,
+                    tramway, ...)
+                    Cliquez sur le bouton « Utiliser » pour confirmer votre correspondance
+                    Si vous voyagez dans un bus ou un tramway, scannez le QR Code affiché à côté de chaque porte pour
+                    valider votre correspondance
+                    Si vous voyagez dans le métro, cliquez sur le bouton « Métro ou Contrôle » et présentez votre QR
+                    Code au lecteur optique leticket présent sur le portillon
+                    Le temps de validité de votre titre vous est indiqué sur l'écran "Votre voyage"</p>
+            </div>
+            <hr>
+            <div class="info">
+                <div class="rond">
+                    <h4>2</h4>
+                </div>
+                <p>Pour ouvrir le portilon d'acceès du métro :
+                    cliquez sue le bouton « Métro ou Contôle » et présentez
+                    votre QR Code au lecteur optique leticket présent sur le portilon</p>
+            </div>
+            <hr>
+            <div class="info">
+                <div class="rond">
+                    <h4>3</h4>
+                </div>
+                <p>En cas de contôle: sélectionnez votre titre en cours de validité, affichez le QR Code via
+                    le bouton «Métro ou Contôle» et presentez le au contrôleur
+                    cliquez sue le bouton « Métro ou Contôle » et présentez
+                    votre QR Code au lecteur optique leticket présent sur le portilon</p>
+            </div>
         </div>
-        <hr>
-        <div class="info">
-            <div class="rond"><h4>2</h4></div>
-            <p>Pour ouvrir le portilon d'acceès du métro :
-                cliquez sue le bouton « Métro ou Contôle » et présentez
-                 votre QR Code au lecteur optique leticket présent sur le portilon</p>
-        </div>
-        <hr>
-        <div class="info">
-            <div class="rond"><h4>3</h4></div>
-            <p>En cas de contôle: sélectionnez votre titre en cours de validité, affichez le QR Code via
-                le  bouton «Métro ou Contôle» et presentez le au contrôleur
-                cliquez sue le bouton « Métro ou Contôle » et présentez
-                 votre QR Code au lecteur optique leticket présent sur le portilon</p>
-        </div>
-    </div>
         <hr>
     </section>
     <!------- QR Code------->
     <div class="code">
-     <div class="QR">
-        <span class="material-symbols-outlined" id="croix1">
-            close
-        </span>
-        <img src="img/QR.png" alt="">
-    </div>
-    <h4>Dernier rafraichissement à 22:58</h4>
+        <div class="QR">
+            <span class="material-symbols-outlined" id="croix1">
+                close
+            </span>
+            <img src="img/QR.png" alt="">
+        </div>
+        <h4>Dernier rafraichissement à 22:58</h4>
         <hr>
-          <p>1 VOYAGE AIX EN BUS</p>
-          <div class="date">DATE DE VALIDATION <strong>02/06/2024 à 22:58</strong>
-          </div>
-            <div class="date">FIN DE VALIDATION <strong>02/06/2024 à 23:58</strong>
-          </div>
+        <p>1 VOYAGE AIX EN BUS</p>
+        <div class="date">DATE DE VALIDATION <strong>02/06/2024 à 22:58</strong>
+        </div>
+        <div class="date">FIN DE VALIDATION <strong>02/06/2024 à 23:58</strong>
+        </div>
 
     </div>
     <!----- Pied de page ------>
     <footer>
         <div>
-        <img src="img/home.png" alt="">
-        <img src="img/time.png" alt="">
-        <img src="img/acheter.png" alt="">
-        <img src="img/alert.png" alt="">
-        <img src="img/menu.png" alt="">
-    </div>
+            <img src="img/home.png" alt="">
+            <img src="img/time.png" alt="">
+            <img src="img/acheter.png" alt="">
+            <img src="img/alert.png" alt="">
+            <img src="img/menu.png" alt="">
+        </div>
     </footer>
 </body>
+
 </html>
