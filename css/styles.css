@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.image {
+    display: block;
+    padding-top: 60%;
+}
+
+.img {
+    position: absolute;
+    bottom: 0;
+   
+}
+.dinosore {
+    display: none;
+}
+
+.connecte {
+    display: none;
+}
+
+@media screen and (min-width: 1000px) {
+    .dinosore {
+        display: block;
+        width: 20%;
+    }
+
+    .img {
+        display: none;
+    }
+    .image {
+        display: none;
+    }
+    .connecte {
+        display: block;
+        margin: 50px;
+        font-size: 5rem;
+        margin: 10%;
+    }
+    .connecte p, .connecte h4 {
+        font-size: 6rem;
+        padding: 20px;
+    }
+
+    .connecte details {
+        padding-top: 40px;
+    }
+
+}

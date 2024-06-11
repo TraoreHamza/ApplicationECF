@@ -1,0 +1,181 @@
+.metro {
+    background-color: #f0eeee;
+    position: absolute;
+    height: 55%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.controle {
+    display: none;
+}
+
+.skil {
+ background-color:  rgba(255, 102, 0, 0.918);
+ color: #fff;
+ padding-top: 30px;
+ padding-bottom: 10px;
+ display: flex;
+ align-items: center;
+ gap: 20px;
+}
+.skil-content {
+    background-color:  rgba(255, 102, 0, 0.918);
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+   
+}
+.skil-content ul {
+    list-style: none;
+}
+.skil p {
+    margin: 0;
+}
+
+.skil img {
+    width: 5%;
+}
+#metro {
+    display: flex;
+    border-bottom: 1px dashed black;
+    justify-content: space-between;
+}
+#metro p {
+    margin: 8px;
+}
+#voyage {
+    border-bottom: 1px dashed black;
+}
+
+#voyage p {
+    text-align: center;
+}
+
+#voyage h4 {
+    width: 50%;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(83, 83, 88, 0.151);
+}
+.help {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 140px;
+    margin: 20px;
+    gap: 10px;
+}
+.help h5 {
+    font-size: 1rem;
+}
+#help {
+    color: rgb(226, 53, 10);
+}
+.info {
+    display: flex;
+    gap: 10px;
+}
+
+.info p {
+    font-size: 1.1rem;
+}
+
+#info {
+    margin-top: 100px;
+}
+.rond {
+   margin: 5px;
+   padding: 25px;
+   margin-top: 40px;
+   position: relative;
+   border: 1px solid black;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%; 
+}
+.rond h4 {
+   position: absolute;
+   bottom: 20%;
+   left: 35%;
+   font-size: 2rem;
+}
+
+.correspondance {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color:  rgba(255, 102, 0, 0.918) ;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.correspondance p {
+    margin-bottom: 40px;
+    margin-left: 40px;
+} 
+
+#correspondance {
+    display: none;
+}
+
+.QR {
+    display: flex;
+}
+.code {
+    display: none;
+    margin-top: 90px;
+}
+.code img {
+    display: block;
+    margin: auto;
+    
+}
+.code h4 {
+    text-align: center;
+    color: hsla(0, 2%, 18%, 0.445);
+}
+
+.code p {
+    margin: 20px;
+    font-weight: 800;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.date strong {
+    font-size: 1.6rem;
+}
+
+.time {
+    border-radius: 0px 0px 25px 25px;
+    margin: auto;
+    background-color: black;
+    position: absolute;
+    padding: 15px;
+    top: 28%;
+    right: 16%;
+    color: #fff;
+    text-align: center;
+    width: 67%;
+}
+
+#timeHours {
+    font-weight: 1000;
+}
+
+#imgTicket {
+    border-radius: 45px;
+}

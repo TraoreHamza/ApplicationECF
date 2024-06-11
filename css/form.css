@@ -1,0 +1,126 @@
+main {
+    background-color: #fff;
+    display: none;
+ 
+}
+
+.photo {
+   text-align: center;
+}
+.formContent {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.card input {
+    border: 1px solid black;
+    width: 70%;
+    padding: 12px;
+    background-color: rgb(240, 240, 240);
+}
+.cardType {
+    display: flex;
+    align-items: center;
+}
+#creditCard {
+    background-color: rgb(240, 240, 240);
+    border: 1px solid black;
+    border-left: none;
+    padding: 8px;
+}
+.cvv input {
+    border: 1px solid black;
+    width: 20%;
+    padding: 15px;
+    background-color: rgb(240, 240, 240);
+}
+.formContent div {
+    margin-top: 20px;
+}
+
+select {
+    width: 40%;
+    padding: 15px;
+    background-color: rgb(240, 240, 240);
+}
+.language {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#langue {
+   margin-right: 10px;
+   border: none;
+   background-color: rgb(85, 81, 81);
+   color: #fff;
+   width: 20%;
+   padding: 20px;
+}
+#select {
+   position: absolute;
+   right: 20px;
+}
+
+ #valide {
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+    display: block;
+    width: 60%;
+    padding: 30px;
+    background-color: #237dd1;
+    color: #fff;
+ }
+
+ .payTraduction  {
+    display: none;
+    background-color: rgb(248, 244, 244);
+    padding-bottom: 10px;
+ }
+.payTraduction img {
+    width: 40%;
+    margin: 10px;
+}
+#card {
+  margin-left: 35%;
+   color: black;
+   text-decoration: none;
+   font-size: 1.2rem;
+}
+ .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+ .copyright p, .copyright a {
+    font-size: 1rem; 
+    color: black;
+ }
+ hr {
+    margin-top: 20px;
+    border: 1px solid rgb(131, 126, 126);
+ }
+ #paiement {
+    background-color: rgb(248, 244, 244);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+ }
+
+ #cardP{
+    background-color: #fff;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    border: none;
+ }
+ .cardP {
+    font-size: 1.5rem;
+    width: 20px;
+ }
+
+ #numberCard, #experyDate, #crypto {
+   color: red;
+ }
