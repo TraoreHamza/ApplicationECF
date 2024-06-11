@@ -247,6 +247,7 @@ checkbox.addEventListener('change', function () {
 // fin de validite en heure
 function startTime() {
     let today = new Date();
+    let date = today.getDate();
     let heure = today.getHours();
     let minute = today.getMinutes();
     let seconde = today.getSeconds();
