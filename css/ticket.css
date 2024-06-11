@@ -14,7 +14,7 @@
 .skil {
  background-color:  rgba(255, 102, 0, 0.918);
  color: #fff;
- padding-top: 30px;
+ padding-top: 10px;
  padding-bottom: 10px;
  display: flex;
  align-items: center;
@@ -51,17 +51,23 @@
 }
 #voyage {
     border-bottom: 1px dashed black;
+    margin-top: 50px;
 }
 
 #voyage p {
     text-align: center;
+    position: absolute;
+    bottom: 90%;
+    left: 0;
+    right: 0;
 }
 
 #voyage h4 {
     width: 50%;
+    font-size: 0.9rem;
     border-radius: 5px;
     margin: 10px;
-    padding: 5px;
+    padding: 0;
     background-color: rgba(83, 83, 88, 0.151);
 }
 .help {
@@ -121,6 +127,7 @@
 .correspondance p {
     margin-bottom: 40px;
     margin-left: 40px;
+    font-size: 1rem;
 } 
 
 #correspondance {
